@@ -15,10 +15,10 @@ int main(void)
 	char charT;
 	long long int longLongIntT;
 
-	printf("Size of a char: %zu bytes\n", sizeof(charT));
-	printf("Size of an int: %zu bytes\n", sizeof(intT));
-	printf("Size of a long int: %zu bytes\n", sizeof(longIntT));
-	printf("Size of a long long int: %zu bytes\n", sizeof(longLongIntT));
-	printf("Size of a float: %zu bytes\n", sizeof(floatT));
+	printf("Size of a char: %zu byte(s)\n", sizeof(charT));
+	printf("Size of an int: %zu byte(s)\n", sizeof(intT));
+	printf("Size of a long int: %zu byte(s)\n", sizeof(longIntT));
+	printf("Size of a long long int: %zu byte(s)\n", sizeof(longLongIntT));
+	printf("Size of a float: %zu byte(s)\n", sizeof(floatT));
 	return (0);
 }
