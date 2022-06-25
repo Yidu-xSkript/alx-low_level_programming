@@ -13,7 +13,7 @@ int main(void)
 	float floatT;
 	long int longIntT;
 	char charT;
-	long long int longLongIntT
+	unsigned int longLongIntT;
 
 	printf("Size of a char: %zu bytes\n", sizeof(charT));
 	printf("Size of an int: %zu bytes\n", sizeof(intT));
