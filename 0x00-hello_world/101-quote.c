@@ -1,5 +1,7 @@
 #include <unistd.h>
 #include <sys/syscall.h>
+#include <stdio.h>
+#include <string.h>
 
 /**
  * main - Entry point
