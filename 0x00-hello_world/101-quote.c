@@ -13,7 +13,7 @@
 int main(void)
 {
 	char msg[59] = "and that piece of art is useful\" ";
-	char msg_[] = "- Dora Korpar, 2015-10-19";
+	char msg_[] = "- Dora Korpar, 2015-10-19\n";
 	int length, j;
 
 	length = 0;
