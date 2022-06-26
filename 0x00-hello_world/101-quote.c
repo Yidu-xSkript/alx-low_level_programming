@@ -14,7 +14,8 @@ int main(void)
 {
 	char msg[] = "and that piece of art is useful\" ";
 	char msg_[] = "- Dora Korpar, 2015-10-19";
-	strcat (msg, msg_);
+
+	strcat(msg, msg_);
 
 	syscall(SYS_write, 1, msg, sizeof(msg));
 
