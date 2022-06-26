@@ -14,8 +14,20 @@ int main(void)
 {
 	char msg[] = "and that piece of art is useful\" ";
 	char msg_[] = "- Dora Korpar, 2015-10-19";
+	int length, j;
 
-	strcat(msg, msg_);
+	length = 0;
+	while (msg[length] != '\0')
+	{
+		++length;
+	}
+
+	for (j = 0; msg_[j] != '\0'; ++j, ++length)
+	{
+		msg[length] = msg_[j];
+	}
+
+	msg[length] = '\0';
 
 	syscall(SYS_write, 1, msg, sizeof(msg));
 
