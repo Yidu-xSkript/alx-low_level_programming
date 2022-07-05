@@ -21,7 +21,7 @@ int main(void)
  **/
 int sum(int n) {
 	int sum = 0;
-	while (fib(n) < N)
+	while (fib(n) < 4000000)
 	{
 		if (fib(n)%2==0)
 			sum += fib(n);
