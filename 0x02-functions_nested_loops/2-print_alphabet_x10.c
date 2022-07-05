@@ -8,9 +8,14 @@
 int main(void)
 {
 	char ch;
+	int num;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-		_putchar(ch);
-	 _putchar('\n');
+	while (num != 10)
+	{
+		for (ch = 'a'; ch <= 'z'; ch++)
+			_putchar(ch);
+		_putchar('\n');
+		num++;
+	}
 	return (0);
 }
