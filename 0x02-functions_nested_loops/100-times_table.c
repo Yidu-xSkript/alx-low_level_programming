@@ -17,7 +17,7 @@ void print_times_table(int n)
 				z = x * y;
 				if (y != 0)
 				{
-					printf(",  ");
+					printf(",");
 				}
 				if (y == 0)
 				{
@@ -25,11 +25,12 @@ void print_times_table(int n)
 				}
 				else if (z >= 10)
 				{
-					printf("%d%d", (z / 10), (z % 10));
+					printf("%3d", (z / 10));
+          printf("%d", (z % 10));
 				}
 				else if ((z < 10) && (y != 0))
 				{
-					printf(" %d", (z % 10));
+					printf("%4d", (z % 10));
 				}
 			}
 			printf("\n");
