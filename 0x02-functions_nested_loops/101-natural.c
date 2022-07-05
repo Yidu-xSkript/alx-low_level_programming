@@ -2,6 +2,7 @@
 /**
  * main - Entry point
  * Description: Print natural nums
+ * Return: Always 0.
  **/
 int main(void)
 {
