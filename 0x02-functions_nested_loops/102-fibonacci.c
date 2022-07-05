@@ -6,19 +6,15 @@
  **/
 int main(void)
 {
-	int f1 = 0, f2 = 1, i, next;
+	int f1 = 0, f2 = 1, i;
+	int next = f1 + f2
 
-	for (i = 1; i <= 50; i++)
+	for (i = 3; i <= 50; ++i)
 	{
-		if (i <= 1)
-			next = i;
-		else
-		{
-			next = f1 + f2;
-			f1 = f2;
-			f2 = next;
-		}
 		printf("%d, ", next);
+		f1 = f2;
+		f2 = next;
+		next = f1 + f2;
 	}
 	return (0);
 }
