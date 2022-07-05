@@ -14,7 +14,7 @@ int main(void)
 		if (i < 50)
 			printf("%ld, ", next);
 		else
-			printf("%ld", next);
+			printf("%ld ", next);
 		f1 = f2;
 		f2 = next;
 		next = f1 + f2;
