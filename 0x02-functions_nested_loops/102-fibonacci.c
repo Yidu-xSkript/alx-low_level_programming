@@ -6,7 +6,7 @@
  **/
 int main(void)
 {
-	int f1 = 1, f2 = 2, i, next;
+	int f1 = 0, f2 = 2, i, next;
 
 	for (i = 1; i < 50; i++)
 	{
