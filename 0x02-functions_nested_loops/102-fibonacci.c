@@ -9,7 +9,7 @@ int main(void)
 	int f1 = 0, f2 = 1, i;
 	int next = f1 + f2;
 
-	for (i = 3; i <= 50; ++i)
+	for (i = 1; i <= 50; ++i)
 	{
 		printf("%d, ", next);
 		f1 = f2;
