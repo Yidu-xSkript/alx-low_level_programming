@@ -11,7 +11,10 @@ int main(void)
 
 	for (i = 1; i <= 50; ++i)
 	{
-		printf("%d, ", next);
+		if (i < 50)
+			printf("%d, ", next);
+		else
+			printf("%d", next);
 		f1 = f2;
 		f2 = next;
 		next = f1 + f2;
