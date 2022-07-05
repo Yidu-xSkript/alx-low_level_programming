@@ -6,15 +6,15 @@
  **/
 int main(void)
 {
-	long f1 = 0, f2 = 1, i;
-	long next = f1 + f2;
+	int64_t f1 = 0, f2 = 1, i;
+	int64_t next = f1 + f2;
 
 	for (i = 1; i <= 98; ++i)
 	{
 		if (i < 98)
-			printf("%ld, ", next);
+			printf("%jd, ", next);
 		else
-			printf("%ld\n", next);
+			printf("%jd\n", next);
 		f1 = f2;
 		f2 = next;
 		next = f1 + f2;
