@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdint.h>
+#include <inttypes.h>
 /**
  * main - Entry Point
  * Description: Fibonacci
@@ -13,9 +13,9 @@ int main(void)
 	for (i = 1; i <= 98; ++i)
 	{
 		if (i < 98)
-			printf("%jd, ", next);
+			printf("%" PRId64 ", ", next);
 		else
-			printf("%jd\n", next);
+			printf("%" PRId64 "\n", next);
 		f1 = f2;
 		f2 = next;
 		next = f1 + f2;
