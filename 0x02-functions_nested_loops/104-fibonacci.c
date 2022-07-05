@@ -13,9 +13,9 @@ int main(void)
 	for (i = 1; i <= 98; ++i)
 	{
 		if (i < 98)
-			printf("%" PRIu64 ", ", next);
+			printf("%lu, ", next);
 		else
-			printf("%" PRIu64 "\n", next);
+			printf("%lu\n", next);
 		f1 = f2;
 		f2 = next;
 		next = f1 + f2;
