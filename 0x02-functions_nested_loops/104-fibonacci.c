@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <inttypes.h>
 /**
  * main - Entry Point
  * Description: Fibonacci
@@ -7,8 +6,8 @@
  **/
 int main(void)
 {
-	unsigned long int f1 = 0, f2 = 1
-  int i;
+	unsigned long int f1 = 0, f2 = 1;
+	int i;
 	unsigned long int next = f1 + f2;
 
 	for (i = 1; i <= 98; ++i)
