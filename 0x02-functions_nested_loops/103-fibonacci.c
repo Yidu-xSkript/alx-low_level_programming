@@ -9,6 +9,7 @@
 int main(void)
 {
 	int i = 2;
+
 	printf("%d", sum(i));
 	return (0);
 }
@@ -19,15 +20,17 @@ int main(void)
  * @n: int input
  * Return: int sum.
  **/
-int sum(int n) {
+int sum(int n)
+{
 	int sum = 0;
+
 	while (fib(n) < 4000000)
 	{
-		if (fib(n)%2==0)
+		if (fib(n) % 2 == 0)
 			sum += fib(n);
 		n++;
 	}
-	return sum;
+	return (sum);
 }
 
 /**
@@ -36,7 +39,8 @@ int sum(int n) {
  * @n: int input
  * Return: int c.
  **/
-int fib(int n) {
+int fib(int n)
+{
 	int a = 0;
 	int b = 1;
 	int c = 0;
@@ -49,5 +53,5 @@ int fib(int n) {
 		b = c;
 		i++;
 	}
-	return c;
+	return (c);
 }
