@@ -1,7 +1,13 @@
 #include <stdio.h>
 #include "main.h"
+
 typedef unsigned char byte;
 #define N 300;
+
+typedef struct
+{
+	byte digits[N];
+} Bignum;
 
 /**
  * printbig - Entry Point
