@@ -7,7 +7,7 @@
 int main(void)
 {
 	int f1 = 0, f2 = 1, i;
-	int next = f1 + f2
+	int next = f1 + f2;
 
 	for (i = 3; i <= 50; ++i)
 	{
