@@ -12,9 +12,9 @@ int main(void)
 	for (i = 1; i <= 50; ++i)
 	{
 		if (i < 50)
-			printf("%d, ", next);
+			printf("%ld, ", next);
 		else
-			printf("%d", next);
+			printf("%ld", next);
 		f1 = f2;
 		f2 = next;
 		next = f1 + f2;
