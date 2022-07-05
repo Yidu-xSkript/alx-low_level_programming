@@ -1,4 +1,3 @@
-#include "main.h"
 /**
  * main - Entry point
  * Description: Print natural nums
@@ -15,6 +14,6 @@ int main(void)
 			sum += i;
 		}
 	}
-	_putchar(sum);
+	printf("%d\n",sum);
   return (0);
 }
