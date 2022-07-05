@@ -17,7 +17,7 @@ void print_times_table(int n)
 				z = x * y;
 				if (y != 0)
 				{
-					printf(", ");
+					printf(",  ");
 				}
 				if (y == 0)
 				{
