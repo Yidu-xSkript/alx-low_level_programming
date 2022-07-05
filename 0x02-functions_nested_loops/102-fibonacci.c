@@ -11,14 +11,14 @@ int main(void)
 	for (i = 1; i <= 50; i++)
 	{
 		if (i <= 1)
-			next = i
+			next = i;
 		else
 		{
-			printf("%d, ", f2);
 			next = f1 + f2;
 			f1 = f2;
 			f2 = next;
 		}
+		printf("%d, ", f2);
 	}
 	return (0);
 }
