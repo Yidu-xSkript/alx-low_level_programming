@@ -11,7 +11,9 @@ void natural_nums(void)
 	for (int i = 0; i < 1024; i++)
 	{
 		if ((i % 3 == 0) || (i % 5 == 0))
+		{
 			sum += i;
+		}
 	}
 	_putchar(sum);
 }
