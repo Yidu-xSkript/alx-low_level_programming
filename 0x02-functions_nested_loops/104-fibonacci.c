@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include "main.h"
+typedef unsigned char byte;
+#define N 300;
 
 /**
  * printbig - Entry Point
