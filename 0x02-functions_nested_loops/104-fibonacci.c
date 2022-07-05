@@ -7,8 +7,8 @@
  **/
 int main(void)
 {
-	long long int f1 = 0, f2 = 1, i;
-	long long int next = f1 + f2;
+	uint64_t f1 = 0, f2 = 1, i;
+	uint64_t next = f1 + f2;
 
 	for (i = 1; i <= 98; ++i)
 	{
