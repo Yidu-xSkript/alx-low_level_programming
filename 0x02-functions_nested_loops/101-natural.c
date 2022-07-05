@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * main - Entry point
+ * natural_nums - Entry point
  * Description: Print natural nums
  **/
-void main(void)
+void natural_nums(void)
 {
 	int sum = 0;
 	int i;
