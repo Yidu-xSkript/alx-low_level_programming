@@ -1,7 +1,10 @@
-#include <stdio.h>
-
+#include <ctype.h>
 /**
- * main - Entry point
+ * _islower - Lower Alphabet
+ *
+ * Description: isLower
+ *
+ * @c: letter
  *
  * Return: Always 0 (Success)
  */
