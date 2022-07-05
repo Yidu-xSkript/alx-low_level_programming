@@ -18,7 +18,7 @@ int main(void)
 			f1 = f2;
 			f2 = next;
 		}
-		printf("%d, ", f2);
+		printf("%d, ", next);
 	}
 	return (0);
 }
