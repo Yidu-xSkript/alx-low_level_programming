@@ -2,16 +2,16 @@
 
 /**
  * print_numbers - Print numbers
- * Description: Print numbers
+ * description: Print numbers
  */
 
 void print_numbers(void)
 {
-    int i;
+	int i;
 
-    for (i = 0; i < 10; i++)
-    {
-        _putchar((i % 10) + '0');
-    }
-    _putchar('\n');
+	for (i = 0; i < 10; i++)
+	{
+		_putchar((i % 10) + '0');
+	}
+	_putchar('\n');
 }
