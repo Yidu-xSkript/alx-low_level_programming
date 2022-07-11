@@ -1,5 +1,6 @@
 #include <string.h>
 #include <stdio.h>
+#include "main.h"
 
 /**
  * puts2 - check the code
@@ -9,10 +10,9 @@
 void puts2(char *str)
 {
 	size_t i;
-	char s[32] = "";
 
 	for (i = 0; i < strlen(str); i+=2)
-        	s[i / 2] = str[i];
+        	_putchar(str[i]);
 
-	printf("%s\n", s);
+	_putchar('\n');
 }
