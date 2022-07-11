@@ -3,8 +3,8 @@
 
 /**
  * _strcpy - check the code 
- * @param dest - pointer char
- * @param src - pointer char
+ * @dest: pointer char
+ * @src: pointer char
  * Return: char
  */
 

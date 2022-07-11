@@ -1,8 +1,8 @@
 
 /**
  * swap_int - check the code 
- * @param a - pointer int
- * @param b - pointer int
+ * @a: pointer int
+ * @b: pointer int
  */
 
 void swap_int(int *a, int *b)

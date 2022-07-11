@@ -1,6 +1,6 @@
 /**
  * _atoi - check the code 
- * @param s - pointer char
+ * @s: pointer char
  * Return: int
  */
 

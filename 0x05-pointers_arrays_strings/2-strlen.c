@@ -2,7 +2,7 @@
 
 /**
  * _strlen - check the code 
- * @param s - pointer int
+ * @s: pointer int
  * Return: int
  */
 

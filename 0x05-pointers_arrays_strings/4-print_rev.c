@@ -3,7 +3,7 @@
 
 /**
  * print_rev - check the code 
- * @param s - pointer char
+ * @s: pointer char
  */
 
 void print_rev(char *s)

@@ -3,7 +3,7 @@
 
 /**
  * puts2 - check the code 
- * @param str - pointer char
+ * @str: pointer char
  */
 
 void puts2(char *str)

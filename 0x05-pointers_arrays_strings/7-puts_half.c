@@ -2,7 +2,7 @@
 
 /**
  * puts_half - check the code 
- * @param str - pointer char
+ * @str: pointer char
  */
 
 void puts_half(char *str)

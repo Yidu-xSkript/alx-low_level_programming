@@ -2,8 +2,8 @@
 
 /**
  * print_array - check the code 
- * @param a - pointer int
- * @param n - int
+ * @a: pointer int
+ * @n: int
  */
 
 void print_array(int *a, int n)
