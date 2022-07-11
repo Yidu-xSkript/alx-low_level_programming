@@ -3,7 +3,7 @@
 
 /**
  * _puts - check the code 
- * @param str - pointer int
+ * @param str - pointer char
  */
 
 void _puts(char *str)
