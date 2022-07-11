@@ -1,5 +1,5 @@
 /**
- * _atoi - check the code 
+ * _atoi - check the code
  * @s: pointer char
  * Return: int
  */
