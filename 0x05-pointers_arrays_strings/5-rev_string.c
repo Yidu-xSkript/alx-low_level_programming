@@ -8,14 +8,23 @@
 
 void rev_string(char *s)
 {
-	char *p1, *p2;
+	int i, size = 0;
+	int start;
+	int end;
+	char holder;
 
-
-	for (p1 = s, p2 = s + strlen(s) - 1; p2 > p1; ++p1, --p2)
+	for (i = 0; s[i] != 0; i++)
 	{
-		*p1 ^= *p2;
-		*p2 ^= *p1;
-		*p1 ^= *p2;
+		size++;
 	}
-	printf("%s", s);
+
+	end = size - 1;
+
+	for (start = 0; start < (size / 2); start++)
+	{
+		holder = s[start];
+		s[start] = s[end];
+		s[end] = holder;
+		end--;
+	}
 }
