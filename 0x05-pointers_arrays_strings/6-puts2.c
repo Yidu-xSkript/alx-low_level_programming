@@ -8,13 +8,11 @@
 
 void puts2(char *str)
 {
-    size_t i;
-    char s[32] = "";
+	size_t i;
+	char s[32] = "";
 
-    for (i = 0; i < strlen(str); i+=2)
-    {
-        s[i / 2] = str[i];
-    }
+	for (i = 0; i < strlen(str); i+=2)
+        	s[i / 2] = str[i];
 
-    printf("%s\n", s);
+	printf("%s\n", s);
 }
