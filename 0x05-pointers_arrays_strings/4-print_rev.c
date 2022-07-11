@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
  * print_rev - check the code
@@ -8,15 +7,20 @@
 
 void print_rev(char *s)
 {
-	int length = 0;
-	int i;
+	int len = 0, i;
 
-	while (s[i++])
-		length++;
+	while (*s != '\0')
+	{
+		++len;
+		++s;
+	}
 
+	for (i = len; i >= 0; i--)
+	{
+		if(len > 0)
+			printf("%c", *(s));
+		--s;
+	}
 
-	for (i = length - 1; i >= 0; i--)
-		_putchar(s[i]);
-
-	_putchar('\n');
+	printf("\n");
 }
