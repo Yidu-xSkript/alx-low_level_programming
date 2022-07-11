@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * puts2 - check the code 
+ * puts2 - check the code
  * @str: pointer char
  */
 
