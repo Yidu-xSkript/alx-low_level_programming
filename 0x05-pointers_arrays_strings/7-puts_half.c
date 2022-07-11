@@ -1,24 +1,24 @@
 #include "main.h"
 
 /**
- * puts_half - check the code 
+ * puts_half - check the code
  * @str: pointer char
  */
 
 void puts_half(char *str)
 {
-    int i = 0, len = 0, n;
+	int i = 0, len = 0, n;
 
-    while (str[i++])
-        len++;
+	while (str[i++])
+		len++;
 
-    if ((len % 2) == 0)
-        n = len / 2;
-    else
-        n = (len + 1) / 2;
+	if ((len % 2) == 0)
+		n = len / 2;
+	else
+		n = (len + 1) / 2;
 
-    for (i = n; i < len; i++)
-        _putchar(str[i]);
+	for (i = n; i < len; i++)
+		_putchar(str[i]);
 
-    _putchar('\n');
+	_putchar('\n');
 }
