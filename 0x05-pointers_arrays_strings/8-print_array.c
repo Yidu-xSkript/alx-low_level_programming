@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * print_array - check the code 
+ * print_array - check the code
  * @a: pointer int
  * @n: int
  */
