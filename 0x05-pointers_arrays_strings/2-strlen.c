@@ -3,6 +3,7 @@
 /**
  * _strlen - check the code 
  * @param s - pointer int
+ * Return: int
  */
 
 int _strlen(char *s)
