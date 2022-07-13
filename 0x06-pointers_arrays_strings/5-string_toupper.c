@@ -1,10 +1,6 @@
-#include <stdio.h>
-#include <ctype.h>
-#include <string.h>
-
 /**
  * string_toupper - check the code
- * @c: an array of integers
+ * @c: string
  * Return: converted char to uppercase
  */
 
