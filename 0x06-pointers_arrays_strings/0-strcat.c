@@ -2,7 +2,8 @@
 #include <string.h>
 
 /**
- * _strcat: Concatenate 2 strings
+ * _strcat - Concatenate 2 strings
+ * description: concatenate 2 strings
  * @dest: char
  * @src: char
  * Return: char
