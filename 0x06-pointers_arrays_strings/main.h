@@ -9,5 +9,6 @@ void print_array(int *a, int n);
 char *string_toupper(char *);
 char *cap_string(char *);
 char *leet(char *);
+char *_strcat(char *dest, char *src);
 
 #endif /* MAIN_H */
