@@ -1,35 +1,44 @@
-#include <stddef.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-
 /**
- * rot13 - Encodes a string using rot13.
- * @c: The string to be encoded.
- * Return: A pointer to the encoded string.
+ * rot13 - Encodes a cing using rot13.
+ * @c: The cing to be encoded.
+ * Return: A pointer to the encoded cing.
  */
 
 char *rot13(char *c)
 {
-	char* result;
-	char* current_char;
+	int i = 0, j;
+	char alphabet[52] = {'A', 'B', 'C', 'D', 'E', 'F',
+			     'G', 'H', 'I', 'J', 'K', 'L',
+			     'M', 'N', 'O', 'P', 'Q', 'R',
+			     'S', 'T', 'U', 'V', 'W', 'X',
+			     'Y', 'Z', 'a', 'b', 'c', 'd',
+			     'e', 'f', 'g', 'h', 'i', 'j',
+			     'k', 'l', 'm', 'n', 'o', 'p',
+			     'q', 'r', 's', 't', 'u', 'v',
+			     'w', 'x', 'y', 'z'};
+	char rot13key[52] = {'N', 'O', 'P', 'Q', 'R', 'S',
+			     'T', 'U', 'V', 'W', 'X', 'Y',
+			     'Z', 'A', 'B', 'C', 'D', 'E',
+			     'F', 'G', 'H', 'I', 'J', 'K',
+			     'L', 'M', 'n', 'o', 'p', 'q',
+			     'r', 's', 't', 'u', 'v', 'w',
+			     'x', 'y', 'z', 'a', 'b', 'c',
+			     'd', 'e', 'f', 'g', 'h', 'i',
+			     'j', 'k', 'l', 'm'};
 
-	result = malloc(strlen(c));
-    
-	strcpy(result, c);
-	current_char = result;
-
-	while (*current_char != '\0')
+	while (c[i])
 	{
-		if ((*current_char >= 97 && *current_char <= 122) || (*current_char >= 65 && *current_char <= 90))
+		for (j = 0; j < 52; j++)
 		{
-			if (*current_char > 109 || (*current_char > 77 && *current_char < 91))
-				*current_char -= 13;
-			else
-				*current_char += 13;
+			if (c[i] == alphabet[j])
+			{
+				c[i] = rot13key[j];
+				break;
+			}
 		}
-		current_char++;
+
+		i++;
 	}
 
-	return result;
+	return (c);
 }
