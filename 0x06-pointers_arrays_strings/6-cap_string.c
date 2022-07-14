@@ -11,21 +11,21 @@
 char *cap_string(char *c)
 {
 	size_t i;
-    
+
 	for (i = 0; i < strlen(c); i++)
-		if ((isalpha(c[i]) && c[i - 1] == ' ') || 
-			(isalpha(c[i]) && c[i - 1] == '\t') || 
+		if ((isalpha(c[i]) && c[i - 1] == ' ') ||
+			(isalpha(c[i]) && c[i - 1] == '\t') ||
 			(isalpha(c[i]) && c[i - 1] == '\n') ||
-			(isalpha(c[i]) && c[i - 1] == ',' ) ||
-			(isalpha(c[i]) && c[i - 1] == ';' ) ||
-			(isalpha(c[i]) && c[i - 1] == '.' ) ||
-			(isalpha(c[i]) && c[i - 1] == '!' ) ||
-			(isalpha(c[i]) && c[i - 1] == '?' ) ||
-			(isalpha(c[i]) && c[i - 1] == '"' ) ||
-			(isalpha(c[i]) && c[i - 1] == '(' ) ||
-			(isalpha(c[i]) && c[i - 1] == ')' ) ||
-			(isalpha(c[i]) && c[i - 1] == '{' ) ||
-			(isalpha(c[i]) && c[i - 1] == '}' ) ||
+			(isalpha(c[i]) && c[i - 1] == ',') ||
+			(isalpha(c[i]) && c[i - 1] == ';') ||
+			(isalpha(c[i]) && c[i - 1] == '.') ||
+			(isalpha(c[i]) && c[i - 1] == '!') ||
+			(isalpha(c[i]) && c[i - 1] == '?') ||
+			(isalpha(c[i]) && c[i - 1] == '"') ||
+			(isalpha(c[i]) && c[i - 1] == '(') ||
+			(isalpha(c[i]) && c[i - 1] == ')') ||
+			(isalpha(c[i]) && c[i - 1] == '{') ||
+			(isalpha(c[i]) && c[i - 1] == '}') ||
 			i == 0)
 			c[i] = toupper(c[i]);
 
