@@ -1,11 +1,5 @@
 #include <stdio.h>
 
-/**
- * main - Entry Point
- * description: code test
- * Return: Always (0)
- */
-
 int main(void)
 {
 	int n;
