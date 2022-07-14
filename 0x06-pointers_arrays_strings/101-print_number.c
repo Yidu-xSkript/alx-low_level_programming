@@ -7,7 +7,7 @@
 
 void print_number(int n)
 {
-	long num = n;
+	unsigned int num = n;
 
 	if (n < 0)
 	{
