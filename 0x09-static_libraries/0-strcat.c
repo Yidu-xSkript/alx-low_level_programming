@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include <string.h>
-
 /**
  * _strcat - Concatenate 2 strings
  * description: concatenate 2 strings
@@ -11,5 +8,4 @@
 
 char *_strcat(char *dest, char *src)
 {
-	return (strcat(dest, src));
 }

@@ -1,4 +1,3 @@
-#include <ctype.h>
 /**
  * _isalpha - non-numerical
  *
@@ -10,8 +9,4 @@
  */
 int _isalpha(int c)
 {
-	if (isalpha(c) != 0)
-		return (1);
-	else
-		return (0);
 }

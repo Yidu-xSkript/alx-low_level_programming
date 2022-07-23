@@ -1,4 +1,3 @@
-#include <stdlib.h>
 /**
  * _abs - absolute value
  *
@@ -11,5 +10,4 @@
 
 int _abs(int j)
 {
-	return (abs(j));
 }
