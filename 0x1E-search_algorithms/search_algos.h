@@ -1,3 +1,5 @@
+#ifndef SEARCH_ALGOS_H
+#define SEARCH_ALGOS_H
 /**
  * struct listint_s - singly linked list
  *
@@ -34,3 +36,5 @@ typedef struct skiplist_s
 
 listint_t *jump_list(listint_t *list, size_t size, int value);
 skiplist_t *linear_skip(skiplist_t *list, int value);
+
+#endif
