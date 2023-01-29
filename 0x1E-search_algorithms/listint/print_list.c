@@ -11,7 +11,7 @@ void print_list(const listint_t *list)
 	printf("List :\n");
 	while (list)
 	{
-		printf("Index[%ud] = [%d]\n", list->index, list->n);
+		printf("Index[%ld] = [%d]\n", list->index, list->n);
 		list = list->next;
 	}
 	printf("\n");

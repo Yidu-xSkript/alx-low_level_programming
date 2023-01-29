@@ -16,12 +16,12 @@ void print_skiplist(const skiplist_t *list)
 	printf("List :\n");
 	for (node = list; node; node = node->next)
 	{
-		printf("Index[%ud] = [%d]\n", node->index, node->n);
+		printf("Index[%ld] = [%d]\n", node->index, node->n);
 	}
 	printf("\nExpress lane :\n");
 	for (node = list; node; node = node->express)
 	{
-		printf("Index[%ud] = [%d]\n", node->index, node->n);
+		printf("Index[%ld] = [%d]\n", node->index, node->n);
 	}
 	printf("\n");
 }
